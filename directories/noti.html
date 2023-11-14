@@ -1,0 +1,39 @@
+<div class="notification-container">
+    <div id="notification" class="notification" onclick="executeNotificationFunction()" onmouseover="clearHideTimeout()"
+      onmouseout="setHideTimeout()">
+      <div class="close-button" onclick="hideNotification(event)">Close</div>
+      <div class="notification-title">Notification Title</div>
+      <div class="notification-message">Notification Content goes here</div>
+    </div>
+  </div>
+  <div id="appstore">
+    <h1 align="center" id="title">Oasis App Store</h1>
+    <p align="center">Soon!</p>
+    <div id="rows"></div>
+  <!-- <p align="center">More Apps Soon!</p>--> 
+  </div>
+  <div class="bottomlooks">
+    <div id="taskbar">
+      <div id="appsContainer">
+        <div class="appsbox" id="appstoretoggle">
+          <img src="/media/icons/launcher.png">
+        </div>
+      </div>
+    </div>
+    <!--<span id="notificationbtn">Quack Center <i class="fa-solid fa-bell"></i></span>-->
+    <div id="notification-center">
+      <div id="notificationContent">
+        <h2>Notification Center</h2>
+        <p>Welcome to the Quack Center! This will be home for all sorts of useful utilities.</p>
+        <hr>
+        <h3>Notifications History</h3>
+        <div id="notificationhistory">
+          <div id="notifhistory"></div>
+          <p id="no-notifications">You're all caught up! There are no new notifications to show :)</p>
+        </div>
+        <hr>
+        <h3>Oasis Notice</h3>
+        <p></p>
+      </div>
+      </div>
+    </div>
